@@ -1,0 +1,10 @@
+root@Atenea:~/disamblingExercises/frida# echo 0 > /proc/sys/kernel/randomize_va_space 
+root@Atenea:~/disamblingExercises/frida# 
+root@Atenea:~/disamblingExercises/frida# 
+root@Atenea:~/disamblingExercises/frida# gcc pass.c pass -fno-stack-protector
+pass.c: In function ‘main’:
+pass.c:11:5: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+  if(strcmp(pass, "iduas3a99321*a2"))
+     ^~~~~~
+root@Atenea:~/disamblingExercises/frida# 
+
